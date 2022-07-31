@@ -1,0 +1,43 @@
+.header-cite {
+    padding: 100px 100px 100px 100px;
+    background-image: url(../image/bg-image.jpeg);
+    background-repeat: no-repeat;
+    background-size: 1400px 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cite-heading {
+    color: #fff;
+}
+
+.cite-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-name {
+    width: 400px;
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+.input-money {
+    width: 400px;
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+.form-button {
+    width: 100px;
+    height: 30px;
+    margin-left: 150px;
+}
+
+.text {
+    color: #fff;
+    font-weight: 700;
+    font-size: 43px;
+    /* margin: 0; */
+}
