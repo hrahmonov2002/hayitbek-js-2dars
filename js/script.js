@@ -6,6 +6,9 @@ var elP = document.querySelector(".text");
 
 var MIN_PRICE = 2000;
 
+console.log(`Ismingiz: ${elInputName.value}
+Pulingiz: ${elInputMoney.value}`);
+
 elForm.addEventListener("submit", function(evt) {
   evt.preventDefault();
 
@@ -18,6 +21,8 @@ elForm.addEventListener("submit", function(evt) {
 }
 
 })
+
+
 
 
 
